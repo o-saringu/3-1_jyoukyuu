@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第３章描く　STEP1-上級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = daimei>プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第３章描く　STEP1-上級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="3syou_1_jyoukyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<img src="3syou_1_jyoukyuu_kekka.png">
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,四角形の中に黒い半円を表示させるプログラムです.</p>
+	<p>(1)背景を灰色にしてください.</p>
+	<p>(2)円の基準点を円が収まる四角い領域の左上角に指定してください.</p>
+	<p>(3)実行結果のように、基準点の座標(120,30),幅と高さ120の左半円を表示させてください.</p>
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(2)円の描画モードを指定する関数　ellipseMode();</p>
+	<p>(3)部分的な円を表示させる関数　arc();</p>
+	</div>
+	</div>
+	
+	
+
+	
+	
+
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+	<p>
+	<label>(3)<input type="text" id="three" size="80" placeholder="解答を入力"</label>
+	<p id = "text3"></p>
+	</p>
+
+	<input type="button" id="btn" value="判定">
+	</div>
+
+	<script src = "main.js"></script>
+</body>
+
+</html>
